@@ -1,3 +1,7 @@
+//prepare a JS program to read an excel file(which will contain student roll no, name and marks) 
+//and as an output it will give the roll no, name and marks of the student who will have highest and lowest marks using Node.js
+
+
 // Requiring the module
 const reader = require('xlsx')
 // Reading our test file 
