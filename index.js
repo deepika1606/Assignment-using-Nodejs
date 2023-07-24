@@ -1,7 +1,7 @@
 // Requiring the module
 const reader = require('xlsx')
 // Reading our test file 
-const file = reader.readFile('dummy.xlsx');
+const file = reader.readFile('dummy.xlsx');   //Here we will get no of sheets
 let data = [];
 const sheets = file.SheetNames
 console.log(sheets)
